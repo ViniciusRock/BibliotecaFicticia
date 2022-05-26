@@ -1,4 +1,7 @@
 <?php
+//se a sessão já tiver o nome, escrever na tela
+echo "teste";
+
 	session_start();
 	if(isset($_SESSION['nome'])){
 		echo"Bem-vindo ".$_SESSION['nome'];
